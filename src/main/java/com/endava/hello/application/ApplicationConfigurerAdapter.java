@@ -20,13 +20,11 @@ public class ApplicationConfigurerAdapter extends WebMvcConfigurerAdapter {
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-        LOGGER.info("inside congure");
         configurer.enable();
     }
 
     @Bean
     public InternalResourceViewResolver viewResolver() {
-        LOGGER.info("inside resolver");
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setPrefix("WEB-INF/jsp/");
         resolver.setSuffix(".jsp");

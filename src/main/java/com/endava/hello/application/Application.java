@@ -20,7 +20,6 @@ public class Application {
     private final static Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) throws Exception {
-        LOGGER.info("Started Application !");
         SpringApplication.run(Application.class, args);
     }
 
