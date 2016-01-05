@@ -19,6 +19,9 @@ public class AppConfig {
     @Value("${vacation.type}")
     private String vacationType;
 
+    /**
+     * Uses logic to instantiate one of the vacation classes.
+     */
     @Bean
     Vacation vacation() {
 
