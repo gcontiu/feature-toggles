@@ -1,7 +1,7 @@
-package com.endava.hello.application;
+package com.endava.toggle.application;
 
-import com.endava.hello.service.Vacation;
-import com.endava.hello.service.VacationType;
+import com.endava.toggle.service.Vacation;
+import com.endava.toggle.service.VacationType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

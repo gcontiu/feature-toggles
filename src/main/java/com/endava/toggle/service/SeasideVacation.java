@@ -1,4 +1,4 @@
-package com.endava.hello.service;
+package com.endava.toggle.service;
 
 /**
  * The class we need to swithc to

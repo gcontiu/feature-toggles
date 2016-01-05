@@ -1,4 +1,4 @@
-package com.endava.hello.service;
+package com.endava.toggle.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

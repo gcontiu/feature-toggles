@@ -1,4 +1,4 @@
-package com.endava.hello.service;
+package com.endava.toggle.service;
 
 /**
  * Created by anghelc on 05/01/16.

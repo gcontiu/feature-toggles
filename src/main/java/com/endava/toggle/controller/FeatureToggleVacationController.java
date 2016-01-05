@@ -1,6 +1,6 @@
-package com.endava.hello.controller;
+package com.endava.toggle.controller;
 
-import com.endava.hello.service.Vacation;
+import com.endava.toggle.service.Vacation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,8 +28,8 @@ public class FeatureToggleVacationController {
     /**
      * This method remained unchanged as the toggling logic was added with
      *
-     * {@link com.endava.hello.application.AppConfig} and
-     * {@link com.endava.hello.service.VacationType}.
+     * {@link com.endava.toggle.application.AppConfig} and
+     * {@link com.endava.toggle.service.VacationType}.
      *
      * None of them existed before.
      */

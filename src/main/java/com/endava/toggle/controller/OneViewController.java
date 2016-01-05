@@ -1,4 +1,4 @@
-package com.endava.hello.controller;
+package com.endava.toggle.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
