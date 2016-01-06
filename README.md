@@ -15,13 +15,14 @@ Business toggle: Automatic Toggling as a feature
 EG: A/B Testing
 - have a logic that based on some probability loads a view or another
 - the count of both A and B are logged after each view load
+- ALTERNATIVE - for a type of used display A, for a different type display B.
 
 
 
 ## Other methods of toggling:
-Db value toggle - might used without restarting the application
+DB value toggle - might be used without restarting the application
 - eg. migrate batches of merchants to new functionality, wait and see if everything is ok, migrate another batch. Try this by adding a column specifying the functionality a merchant should use.
 
 Cases where one can't build the abstraction 
-- this might lead to specifying the toggle at the point of use.
-- WARNING: you might want to use your creativity so you can invent a point where the toggle can be used.
+- this might lead to specifying the somewhere closer to the point of use.
+- WARNING: you might want to use your creativity so you can invent a point where the toggle can be used (as close to the entry point of that feature as possible).
