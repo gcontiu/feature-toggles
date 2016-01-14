@@ -27,7 +27,7 @@ public class OneViewController {
         LOGGER.info("view name = " + viewName);
 
         return new ModelAndView(viewName)
-                .addObject("name", "My dear controller");
+                .addObject("name", "My dear Endava");
     }
 
 
